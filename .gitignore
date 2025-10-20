@@ -1,1 +1,27 @@
-/frontend
+# Node.js 依賴
+frontend/node_modules/
+frontend/dist/
+frontend/package-lock.json
+
+# 編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 作業系統
+.DS_Store
+Thumbs.db
+
+# 日誌
+*.log
+npm-debug.log*
+
+# 環境變數
+.env
+.env.local
+
+# 臨時文件
+*.tmp
+.cache/
