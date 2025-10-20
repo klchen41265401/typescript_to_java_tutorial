@@ -37,6 +37,6 @@ export default defineConfig({
     // 調整 chunk 大小警告限制
     chunkSizeWarningLimit: 1000,
   },
-  // 確保 SPA 路由正常工作
-  base: "./",
+  // GitHub Pages 部署在子路徑，需要設定正確的 base
+  base: "/typescript_to_java_tutorial/",
 });
