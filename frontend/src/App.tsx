@@ -11,7 +11,7 @@ import TypesPage from "./pages/comparison/TypesPage";
  */
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/typescript_to_java_tutorial">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
