@@ -1,6 +1,6 @@
 # 依賴套件
 node_modules/
-package-lock.json
+# package-lock.json  ← 應該要提交以確保依賴版本一致
 
 # 構建輸出
 dist/
